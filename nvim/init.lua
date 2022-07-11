@@ -1,4 +1,4 @@
-vim.cmd [[language ja_JP]]
+-- vim.cmd [[language ja_JP]]
 
 -- vim.g.gruvbox_material_background = 'hard'
 
@@ -89,9 +89,6 @@ require("nvim-treesitter.configs").setup {
     highlight = {
         enable = true,
     },
-    -- indent = {
-    --     enable = true,
-    -- }
 }
 
 
