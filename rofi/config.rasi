@@ -1,0 +1,13 @@
+configuration {
+    display-drun: "";
+    show-icons: true;
+    display-window: "";
+    icon-theme: "Papirus";
+    drun-display-format: "{icon} {name}";
+    font: "FiraCode Nerd Font Mono Medium 16";
+    modi: [window,drun];
+    /* window-thumbnail: true; */
+}
+@theme "~/.config/rofi/allblack.rasi"
+@import "~/.cache/wal/colors-rofi-dark"
+

@@ -1,0 +1,63 @@
+* {
+    w-bg: #000000BB;
+    transparent: #00000000;
+    bg: #1a1b26;
+    fg: #FFFFFF;
+
+    blue: #7aa2f7;
+    cyan: #7dcfff;
+    green: #9ece6a;
+
+    white: #FFFFFF;
+    magenta: #FFFFFFdd;
+
+    background-color: @transparent;
+    text-color: @fg;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+prompt {
+    /* margin: 12; */
+}
+
+window {
+    width: 45%;
+    padding: 30;
+    /* background-color: @w-bg; */
+}
+
+element {
+    padding: 5;
+    margin: 5;
+    orientation: vertical;
+    spacing: 5px;
+    text-color: @fg;
+    background-color: @transparent;
+}
+
+element-text {
+    horizontal-align: 0.5;
+    background-color: @transparent;
+    text-color: inherit;
+}
+
+element-icon {
+    size: 75;
+    background-color: @transparent;
+}
+
+element selected {
+    background-color: @magenta;
+    border-radius: 15px;
+    text-color: @background;
+}
+
+listview {
+    background-color: @transparent;
+    columns: 3;
+    lines: 3;
+}

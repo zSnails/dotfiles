@@ -1,0 +1,9 @@
+configuration {
+    display-drun: "アプリケーション: ";
+    display-window: "ウィンドウ: ";
+    drun-display-format: "{name}";
+    font: "FiraCode Nerd Font Mono Medium 16";
+    modi: [window,run,ssh,drun];
+}
+
+@theme "/home/tholly/.config/rofi/marija.rasi"

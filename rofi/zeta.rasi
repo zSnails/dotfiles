@@ -1,0 +1,62 @@
+* {
+    w-bg: #1a1b26BB;
+    transparent: #00000000;
+    bg: #1a1b26;
+    fg: #c0caf5;
+
+    blue: #7aa2f7;
+    cyan: #7dcfff;
+    green: #9ece6a;
+
+    white: #a9b1d6;
+    magenta: #bb9af7dd;
+
+    background-color: @transparent;
+    text-color: @fg;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+entry {
+    text-color: @fg;
+    margin: 12;
+    background-color: @transparent;
+}
+
+prompt {
+    padding: 12;
+    text-color: @bg;
+    background-color: @magenta;
+}
+
+window {
+    width: 45%;
+    padding: 30;
+    /* text-color: @white; */
+    background-color: @w-bg;
+}
+
+element {
+    padding: 12;
+    text-color: @fg;
+    background-color: @transparent;
+}
+
+element-text {
+    background-color: @transparent;
+    text-color: inherit;
+}
+
+element selected {
+    background-color: @magenta;
+    text-color: @bg;
+}
+
+listview {
+    background-color: @transparent;
+    columns: 1;
+    lines: 10;
+}

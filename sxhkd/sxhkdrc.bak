@@ -1,0 +1,28 @@
+# Reload functions
+super + Escape
+	/home/tholly/sxhkd/functions
+
+super + p
+	rofi -show drun
+
+super + Return
+	wezterm
+
+
+super + r
+    power_menu.sh
+
+# Rotate tree
+super + shift + {d,a}
+    bspc node @/ -C {forward,backward}
+
+# close window
+super + {_,shift + }w
+	bspc node -{c,k}
+
+# switch desktops
+# super + shift + {1-9,0}
+# 	bspc desktop -f {1-9,10}
+
+super + {_,shift + }{1-9,0}
+	bspc {desktop -f,window -d} {1-9,10}

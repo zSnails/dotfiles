@@ -1,0 +1,62 @@
+* {
+    w-bg: #24283bBB;
+    transparent: #00000000;
+    bg: #7aa2f7;
+    fg: #fcf6ec;
+
+    blue: #7aa2f7;
+    cyan: #7dcfff;
+    green: #9ece6a;
+
+    white: #a9b1d6;
+    magenta: #bb9af7dd;
+    coolblue: #7aa2f7;
+
+    background-color: @transparent;
+    text-color: @fg;
+
+    border: 0;
+    margin: 0;
+    padding: 0;
+    spacing: 0;
+}
+
+entry {
+    text-color: @fg;
+    margin: 5;
+    background-color: @transparent;
+}
+
+prompt {
+    padding: 5;
+    text-color: @fg;
+    background-color: @coolblue;
+}
+
+window {
+    width: 40%;
+    padding: 20;
+    background-color: @w-bg;
+}
+
+element {
+    padding: 5;
+    text-color: @fg;
+    background-color: @transparent;
+}
+
+element-text {
+    background-color: @inherit;
+    text-color: inherit;
+}
+
+element selected {
+    background-color: @coolblue;
+    text-color: @fg;
+}
+
+listview {
+    background-color: @transparent;
+    columns: 1;
+    lines: 10;
+}
